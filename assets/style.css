@@ -112,7 +112,7 @@ h1 {
 /* RUTE */
 .rute-container {
     background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
-      url("assets/images/pesawat\ bg.jpg");
+      url("https://github.com/MilanoGps/UTSWEB/blob/main/assets/images/pesawat%20bg.jpg?raw=true");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@ h1 {
 /* ABOUT */
 .tentang-container{
     background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
-      url("assets/images/pesawat\ bg3.jpg");
+      url("https://github.com/MilanoGps/UTSWEB/blob/main/assets/images/pesawat%20bg3.jpg?raw=true");
     height:100vh;
     background-position: center;
     background-repeat: no-repeat;
