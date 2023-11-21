@@ -1,0 +1,269 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body hr{
+    border : 5px solid #333;
+    margin: 0;
+  }
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+.nav-container {
+  max-width: 100%;
+  height: auto;
+  background-color: lightgray;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.nav-container header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.nav-container .logo img {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  padding-top: 7px;
+  padding-right: 400px;
+}
+
+.nav-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-container li a {
+  display: block;
+  color: black;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  height: 75px;
+  line-height: 80px;
+}
+
+.nav-container li a:hover {
+  transition: all 0.3s;
+  border-bottom: 5px solid black;
+}
+.nav-container hr {
+  border: 2px solid #333;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* END OF HEADER */
+
+/* HERO */
+.hero-container {
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
+    url("/assets/images/pesawat\ bg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.hero-text h1 {
+  color: #FCC916;
+  font-size: 70px;
+  margin-bottom: 100px;
+}
+
+.hero-text p {
+  font-weight: bold;
+  padding-right: 310px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.hero-container h2{
+    font-size: 40px;
+}
+/* END OF HERO */
+
+/* RUTE */
+.rute-container {
+    background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
+      url("/assets/images/pesawat\ bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rute-container h2{
+    color:#FCC916;
+    justify-content: center;
+    font-size: 40px;
+  }
+  
+  .rute-container img{
+    height: 650px;
+  }
+/* END OF RUTE */
+
+/* SHOWCASE */
+.showcase-container h2{
+    color: #FCC916;
+    font-size: 70px;
+    margin-top: 0;
+    text-align: center;
+}
+.showcase-container h1{
+    color: #D99A1F;
+    font-size: 40px;
+    margin-top: 0;
+    text-align: center;
+}
+.showcase-container p{
+
+    font-size: 40px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.showcase-container:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  
+  .showcase {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  .showcase-image,
+  .showcase-text {
+    width: 50%;
+    margin: 1em;
+  }
+  
+  .showcase-image img {
+    width: 100%;
+    border: 1px solid silver;
+    padding: 0.3rem;
+  }
+  /* END OF SHOWCASE */
+
+/* ABOUT */
+.tentang-container{
+    background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
+      url("/assets/images/pesawat\ bg3.jpg");
+    height:60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+  }
+
+.tentang-container h1 {
+    padding-left: 150px;
+    padding-top: 150px;
+    color: #FCC916;
+    font-size: 40px;
+  }
+  
+.tentang-container p {
+    padding-left: 150px;
+    color: white;
+    padding-right: 310px;
+    font-size: 30px;
+  }
+/* END OF ABOUT */
+
+/* FOOTER */
+footer {
+  background-color: #464646;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;   
+}
+
+.footer-logo img {
+  height: 300px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer-contact,
+.footer-address {
+  margin: 0 20px;
+}
+
+.footer-contact h3,
+.footer-address h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.footer-contact p{
+    font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.footer-contact ul {
+  color: white;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-contact li {
+    font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-address p {
+    font-size: 30px;
+  color: white;
+}
+
+.footer-address a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-address a:hover {
+  text-decoration: underline;
+}
+/* END OF FOOTER */
+
