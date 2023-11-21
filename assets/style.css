@@ -74,7 +74,7 @@ h1 {
 /* HERO */
 .hero-container {
   background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
-    url("/assets/images/pesawat\ bg.jpg");
+    url("https://github.com/MilanoGps/UTSWEB/blob/main/assets/images/pesawat%20bg.jpg?raw=true");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -182,7 +182,7 @@ h1 {
 .tentang-container{
     background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
       url("assets/images/pesawat\ bg3.jpg");
-    height:60vh;
+    height:100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -193,7 +193,7 @@ h1 {
 
 .tentang-container h1 {
     padding-left: 150px;
-    padding-top: 100px;
+    padding-top: 150px;
     color: #FCC916;
     font-size: 40px;
   }
