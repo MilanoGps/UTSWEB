@@ -74,7 +74,7 @@ h1 {
 /* HERO */
 .hero-container {
   background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
-    url("/assets/images/pesawat\ bg.jpg");
+    url("assets/images/pesawat\ bg.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ h1 {
 /* RUTE */
 .rute-container {
     background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
-      url("/assets/images/pesawat\ bg.jpg");
+      url("assets/images/pesawat\ bg.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@ h1 {
 /* ABOUT */
 .tentang-container{
     background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
-      url("/assets/images/pesawat\ bg3.jpg");
+      url("assets/images/pesawat\ bg3.jpg");
     height:60vh;
     background-position: center;
     background-repeat: no-repeat;
