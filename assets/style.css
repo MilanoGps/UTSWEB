@@ -74,7 +74,7 @@ h1 {
 /* HERO */
 .hero-container {
   background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
-    url("assets/images/pesawat\ bg.jpg");
+    url("/assets/images/pesawat\ bg.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -193,7 +193,7 @@ h1 {
 
 .tentang-container h1 {
     padding-left: 150px;
-    padding-top: 150px;
+    padding-top: 100px;
     color: #FCC916;
     font-size: 40px;
   }
